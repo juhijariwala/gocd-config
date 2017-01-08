@@ -21,6 +21,23 @@
         </jobs>
       </stage>
     </pipeline>
+    <pipeline name="git_repo">
+      <materials>
+        <git url="/Users/juhij/Downloads/go-server-16.12.0/db/config.git" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="bash">
+                <arg>-c</arg>
+                <arg>git status; git push origin master</arg>
+              </exec>
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
   </pipelines>
   <pipelines group="configrepo-example" />
   <environments>
