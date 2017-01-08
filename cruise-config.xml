@@ -43,5 +43,8 @@
   <environments>
     <environment name="dev" />
   </environments>
+  <agents>
+    <agent hostname="injuhijariwala.local" ipaddress="127.0.0.1" uuid="8a8f412d-fc65-42a1-ae27-e7c89169e374" />
+  </agents>
 </cruise>
 
