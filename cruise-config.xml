@@ -9,7 +9,7 @@
   <pipelines group="defaultGroup">
     <pipeline name="up42">
       <materials>
-        <git url="https://github.com/juhijariwala/biblioteca_library.git" />
+        <git url="https://github.com/juhijariwala/gocd-json-config-example.git" />
       </materials>
       <stage name="defaultStage">
         <jobs>
