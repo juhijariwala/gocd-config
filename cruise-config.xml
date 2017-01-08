@@ -13,7 +13,7 @@
       </materials>
       <stage name="defaultStage">
         <jobs>
-          <job name="defaultJob">
+          <job name="defaultJob12">
             <tasks>
               <exec command="ls" />
             </tasks>
