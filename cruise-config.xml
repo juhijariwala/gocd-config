@@ -22,5 +22,9 @@
       </stage>
     </pipeline>
   </pipelines>
+  <pipelines group="configrepo-example" />
+  <environments>
+    <environment name="dev" />
+  </environments>
 </cruise>
 
