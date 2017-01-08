@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="87">
   <server artifactsdir="artifacts" agentAutoRegisterKey="80311f90-dd19-4ef9-af12-ad4caeacde7b" commandRepositoryLocation="default" serverId="f6488e7e-040a-42ce-bc4e-521448a9ba87" />
+  <config-repos>
+    <config-repo plugin="json.config.plugin">
+      <git url="https://github.com/tomzo/gocd-json-config-example.git" />
+    </config-repo>
+  </config-repos>
   <pipelines group="defaultGroup">
     <pipeline name="up42">
       <materials>
